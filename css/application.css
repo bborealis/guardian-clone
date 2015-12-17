@@ -31,9 +31,12 @@ section {
 header.navigation {
   background-color: #005689;
   border-bottom: 1px solid #003656;
-  min-height: 200px;
+  min-height: 60px;
   width: 100%;
   z-index: 999; }
+  header.navigation .nav-header {
+    background: #005689;
+    height: 200px; }
   header.navigation .navigation-wrapper {
     max-width: 68em;
     margin-left: auto;
@@ -50,17 +53,17 @@ header.navigation {
       display: table; }
   header.navigation .logo {
     float: left;
-    max-height: 200px;
+    max-height: 60px;
     padding-left: 1em;
     padding-right: 2em; }
     header.navigation .logo img {
-      max-height: 200px;
+      max-height: 60px;
       padding: 0.8em 0; }
   header.navigation .navigation-menu-button {
     color: rgba(255, 255, 255, 0.7);
     display: block;
     float: right;
-    line-height: 200px;
+    line-height: 60px;
     margin: 0;
     padding-right: 1em;
     text-decoration: none;
@@ -72,7 +75,7 @@ header.navigation {
       color: white; }
   header.navigation nav {
     float: none;
-    min-height: 200px;
+    min-height: 60px;
     z-index: 9999999; }
     @media screen and (min-width: 53.75em) {
       header.navigation nav {
@@ -95,7 +98,7 @@ header.navigation {
   header.navigation ul li.nav-link {
     background: #005689;
     display: block;
-    line-height: 200px;
+    line-height: 60px;
     overflow: hidden;
     padding-right: 0.8em;
     text-align: right;
@@ -105,7 +108,7 @@ header.navigation {
       header.navigation ul li.nav-link {
         background: transparent;
         display: inline;
-        line-height: 200px;
+        line-height: 60px;
         text-decoration: none;
         width: auto; } }
     header.navigation ul li.nav-link a {
@@ -178,7 +181,7 @@ header.navigation {
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
         header.navigation ul.submenu li {
-          line-height: 153.84615px; }
+          line-height: 46.15385px; }
           header.navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
@@ -201,7 +204,7 @@ header.navigation {
     background: #505050;
     clear: both;
     display: block;
-    height: 200px; }
+    height: 60px; }
     @media screen and (min-width: 53.75em) {
       header.navigation .navigation-tools {
         background: transparent;
