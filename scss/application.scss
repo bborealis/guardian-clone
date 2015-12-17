@@ -1,0 +1,11 @@
+// Global Imports
+@import 'vendor/index';
+
+
+
+
+section {
+  @include outer-container;
+  aside { @include span-columns(3); }
+  article { @include span-columns(9); }
+}
