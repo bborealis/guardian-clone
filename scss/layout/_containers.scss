@@ -1,0 +1,42 @@
+section {
+  @include outer-container;
+  aside { @include span-columns(3); }
+  article { @include span-columns(9); }
+}
+
+.news-small {
+  @extend %box-small;
+  @extend %border;
+  float : left;
+
+}
+
+.news-med {
+  @extend %box-medium;
+  @extend %border;
+  float : left;
+}
+
+section.top-row {
+  @include outer-container;
+  .first {
+    @include span-columns(3);
+    @extend %border;
+    height : 250px;
+    margin : 0;
+  }
+  .second {
+    @include span-columns(3);
+    @extend %border;
+    height : 250px;
+    margin : 0;
+
+  }
+  .third {
+    @include span-columns(6);
+    @extend %border;
+    height : 250px;
+    margin : 0;
+
+  }
+}

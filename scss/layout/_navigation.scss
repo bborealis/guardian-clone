@@ -1,11 +1,5 @@
-section {
-  @include outer-container;
-  aside { @include span-columns(3); }
-  article { @include span-columns(9); }
-}
-
 header.navigation {
-  
+
   background-color: $navigation-background;
   border-bottom: 1px solid darken($navigation-background, 10);
   min-height: $navigation-height;
@@ -15,7 +9,11 @@ header.navigation {
   .nav-header {
     background : $navigation-background;
     height : $nav-header-height;
-
+    h1 {
+      color: $white;
+      float:right;
+      font-size: $nav-header-height - 100px;
+    }
   }
   .navigation-wrapper {
     @include clearfix;
@@ -322,4 +320,10 @@ header.navigation {
       }
     }
   }
+}
+
+.sub-nav {
+  @extend %box-large;
+  background : $dark-nav-blue;
+
 }

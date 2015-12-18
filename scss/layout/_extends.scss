@@ -1,0 +1,19 @@
+%box-small {
+  width : $small-box-width;
+  height : $box-height;
+}
+
+%box-medium {
+  width : $medium-box-width;
+  height : $box-height;
+}
+
+%box-large {
+  width : $large-box-width;
+  height : $large-box-height;
+}
+
+// Top border
+%border {
+  border: $base-border;
+}
